@@ -6,8 +6,8 @@ An internal meeting room booking tool built with **Next.js 14 (App Router)**, **
 
 ## Live Demo
 
-- **Frontend:** https://roomit-frontend.vercel.app _(deploy to Vercel)_
-- **Backend:** https://roomit-api.railway.app _(deploy to Railway/Render)_
+- **Frontend:** https://roomit-lac.vercel.app _(deploy to Vercel)_
+- **Backend:** https://roomit-backend-n18s.onrender.com _(deploy to Render)_
 
 ---
 
@@ -115,7 +115,7 @@ npm run dev       # Starts on port 5000
 ```bash
 cd frontend
 cp .env.example .env
-# Edit .env: set NEXT_PUBLIC_API_URL=http://localhost:5000
+# Edit .env: set NEXT_PUBLIC_API_URL=http://localhost:5001
 npm install
 npm run dev       # Starts on port 3000
 ```
